@@ -7,6 +7,17 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "# Grab 23 random elements between 0 and 10000\narr = (1..10000).to_a\np arr\n\n# This selects only elements that when divided by 3 have a remainder of 0\n# using the % (modulus) operator\np arr.select { |element| element % 3 == 0 }\n\n# Using `reject` method filter out anything less than 5000\n# and use `sort` and `reverse` methods to sort in descending order\n# Start with the line below and continue as 1 long method chain\np arr.select { |element| element % 3 == 0 }.reject { |element| element < 5000 }.sort.reverse\n",
+			"file": "1_2/_fullstack-course1-module2/Assignments/Lesson02-Assignment01-Collections/solution/module2_lesson2_formative.rb",
+			"file_size": 520,
+			"file_write_time": 131013689626396650,
+			"settings":
+			{
+				"buffer_size": 510,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,30 +26,55 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 147.0,
-		"last_filter": "install",
+		"height": 262.0,
+		"last_filter": "git diff",
 		"selected_items":
 		[
+			[
+				"git diff",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git difft",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"difft",
+				"Git: Diff Current File"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
+				"lis",
+				"Package Control: List Packages"
 			],
 			[
-				"git",
+				"insta",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 417.0
+		"width": 498.0
 	},
 	"console":
 	{
-		"height": 139.0,
+		"height": 323.0,
 		"history":
 		[
+			"y",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
 	},
@@ -53,16 +89,28 @@
 	},
 	"expanded_folders":
 	[
-		"/home/tomek/DDocs/Coursera/RoR"
+		"/home/tomek/DDocs/Coursera/RoR",
+		"/home/tomek/DDocs/Coursera/RoR/1_1",
+		"/home/tomek/DDocs/Coursera/RoR/1_2",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments/Lesson02-Assignment01-Collections",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments/Lesson02-Assignment01-Collections/solution",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments/Lesson02-Assignment01-Collections/student-start"
 	],
 	"file_history":
 	[
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments/Lesson01-Assignment01-Case-Statement/student-start/module2_lesson1_formative.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments/Lesson02-Assignment01-Collections/module2_lesson2_formative_org.rb",
+		"/home/tomek/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/tomek/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/tomek/.config/sublime-text-3/Packages/User/Ruby.sublime-settings",
 		"/home/tomek/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/tomek/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -76,6 +124,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"",
+			"rvm",
+			"path",
 			"folder"
 		],
 		"highlight": true,
@@ -84,6 +135,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -94,8 +146,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "1_2/_fullstack-course1-module2/Assignments/Lesson02-Assignment01-Collections/solution/module2_lesson2_formative.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -105,7 +186,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -134,11 +215,15 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 271.0
+	},
 	"pinned_build_system": "",
 	"project": "Coursera_RoR.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -176,7 +261,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 333.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
