@@ -123,10 +123,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 239.0,
-		"last_filter": "git add",
+		"height": 368.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"git add",
 				"Git: Add All"
@@ -229,10 +237,41 @@
 		"/home/tomek/DDocs/Coursera/RoR",
 		"/home/tomek/DDocs/Coursera/RoR/1_1",
 		"/home/tomek/DDocs/Coursera/RoR/1_2",
-		"/home/tomek/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2"
+		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment",
+		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment/spec",
+		"/home/tomek/DDocs/Coursera/RoR/1_3",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/Assignments/Lesson03-Assignment01-HTTP-Client/student-start",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/assets",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/assets/stylesheets",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/controllers",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/helpers",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/layouts",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/recipes",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/config",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/test/controllers"
 	],
 	"file_history":
 	[
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/layouts/application.html.erb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/fullstack-course1-module3-master/app/controllers/courses_controller.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/controllers/recipes_controller.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/config/routes.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/models/recipe.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/recipes/index.html.erb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/assets/stylesheets/recipes.scss",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/fullstack-course1-module3-master/Gemfile",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/Gemfile",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/helpers/application_helper.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/helpers/recipes_helper.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/fullstack-course1-module3-master/app/assets/stylesheets/courses.scss",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/fullstack-course1-module3-master/app/views/courses/index.html.erb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/Assignments/Lesson03-Assignment01-HTTP-Client/student-start/module3_1_assignment.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/Assignments/Lesson03-Assignment01-HTTP-Client/student-start/solution.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/controllers/recipes_controller_controller.rb",
+		"/home/tomek/DDocs/Coursera/RoR/1_3/Assignments/Lesson03-Assignment01-HTTP-Client/student-start/module3_1_assignment_org.rb",
 		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment/module2_assignment.rb",
 		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment/spec/solution_spec.rb",
 		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment/spec/line_analyzer_spec.rb",
@@ -278,6 +317,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"max",
+			";\n",
+			"Description",
+			"course",
+			"RecipesController",
+			"'",
+			"term",
 			"calculate_line_with_highest_frequency",
 			"print_highest_word_frequency_across_lines",
 			"end",
@@ -302,6 +348,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
 			"# ",
 			"'"
 		],
@@ -375,6 +422,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"gemfile",
+				"1_3/recipefinder/Gemfile"
+			],
+			[
+				"recipes",
+				"1_3/recipefinder/app/assets/stylesheets/recipes.scss"
+			],
+			[
+				"scss",
+				"1_3/fullstack-course1-module3-master/app/assets/stylesheets/courses.scss"
+			],
+			[
+				"html.erb",
+				"1_3/fullstack-course1-module3-master/app/views/courses/index.html.erb"
+			],
+			[
+				"controlle",
+				"1_3/fullstack-course1-module3-master/app/controllers/courses_controller.rb"
+			],
+			[
+				"controll",
+				"1_3/fullstack-course1-module3-master/app/controllers/courses_controller.rb"
+			],
+			[
+				"assignme",
+				"1_3/Assignments/Lesson03-Assignment01-HTTP-Client/student-start/module3_1_assignment.rb"
+			],
 			[
 				"line",
 				"1_2/Assignment/spec/line_analyzer_spec.rb"
