@@ -4,12 +4,84 @@
 		"selected_items":
 		[
 			[
-				"fin",
-				"find"
+				"birth",
+				"birthyear	(assignment_spec.rb)"
+			],
+			[
+				"max",
+				"maxYear"
+			],
+			[
+				"min",
+				"minYear"
+			],
+			[
+				"todo",
+				"todo_items"
+			],
+			[
+				"mus",
+				"male_cannot_be_sue"
+			],
+			[
+				"valid",
+				"validates	(user.rb)"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"li",
+				"list_due_date	(assignment_spec.rb)"
+			],
+			[
+				"ne",
+				"new_list"
+			],
+			[
+				"destro",
+				"destroy_all"
+			],
+			[
+				"Todo",
+				"TodoItem"
 			],
 			[
 				"new",
-				"new_list"
+				"new_due_date"
+			],
+			[
+				"Tod",
+				"TodoItem	(todo_item.rb)"
+			],
+			[
+				"fin",
+				"find_by	(assignment_spec.rb)"
+			],
+			[
+				"user",
+				"username	(assignment_spec.rb)"
+			],
+			[
+				"User",
+				"User"
+			],
+			[
+				"des",
+				"destroy_all"
+			],
+			[
+				"last",
+				"last_name	(assignment_spec.rb)"
+			],
+			[
+				"todo_",
+				"todo_items	(assignment_spec.rb)"
+			],
+			[
+				"has",
+				"has_many	(user.rb)"
 			],
 			[
 				"par",
@@ -128,34 +200,58 @@
 	"buffers":
 	[
 		{
-			"file": "2_1/todolists/assignment/assignment.rb",
+			"file": "2_3/todolists/db/migrate/20160329213350_change_description_to_text.rb",
 			"settings":
 			{
-				"buffer_size": 4194,
+				"buffer_size": 130,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "2_1/todolists/spec/assignment_spec.rb",
+			"file": "2_3/todolists/db/schema.rb",
 			"settings":
 			{
-				"buffer_size": 15091,
+				"buffer_size": 1050,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "2_1/todolists/db/schema.rb",
+			"file": "2_3/todolists/app/controllers/todo_items_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1706,
+				"buffer_size": 2090,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "2_1/todolists/db/migrate/20160315194850_create_users.rb",
+			"file": "2_3/todolists/app/views/todo_items/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 195,
+				"buffer_size": 404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2_3/todolists/app/views/todo_items/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2_3/todolists/app/views/todo_items/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2_3/todolists/app/views/todo_items/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 85,
 				"line_ending": "Unix"
 			}
 		}
@@ -280,34 +376,54 @@
 	[
 		"/home/tomek/DDocs/Coursera/RoR",
 		"/home/tomek/DDocs/Coursera/RoR/1_1",
-		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment",
-		"/home/tomek/DDocs/Coursera/RoR/1_2/Assignment/spec",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/assets",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/assets/stylesheets",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/controllers",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/helpers",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/layouts",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/recipes",
-		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/config",
 		"/home/tomek/DDocs/Coursera/RoR/2_1",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists",
-		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/app",
-		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/app/models",
-		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/assignment",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/db",
-		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/spec"
+		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/db/migrate",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/app",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/app/models",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/db",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/db/migrate",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/spec",
+		"/home/tomek/DDocs/Coursera/RoR/2_3",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/app",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/app/controllers",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/app/views",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/app/views/todo_items",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/config",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/db",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/db/migrate",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/test",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/test/controllers"
 	],
 	"file_history":
 	[
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/test/fixtures/to_do_items.yml",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/app/controllers/todo_items_controller.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/test/controllers/todo_items_controller_test.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/db/migrate/20160329210621_rename_to_do_items_to_todo_items.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_3/todolists/app/models/todo_item.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/db/schema.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/app/models/profile.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/app/models/user.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/app/models/todo_list.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/app/models/todo_item.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/spec/assignment_spec.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/db/seeds.rb",
+		"/home/tomek/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/tomek/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/db/migrate/20160321154211_create_profiles.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_2/todolists/db/migrate/20160321161505_add_user_to_todo_list.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/assignment/assignment.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/db/migrate/20160315194850_create_users.rb",
+		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/spec/assignment_spec.rb",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/app/models/user.rb",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/db/migrate/20160315201639_change_description_to_text_in_todoitem.rb",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/app/models/todo_item.rb",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/db/migrate/20160315200951_create_todo_items.rb",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/db/migrate/20160315195945_change_birth_year_to_number_in_profile.rb",
-		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/assignment/assignment.rb",
 		"/home/tomek/DDocs/Coursera/RoR/2_1/todolists/assignment/assignment_org.rb",
 		"/home/tomek/DDocs/Coursera/RoR/1_3/recipefinder/app/views/layouts/application.html.erb",
 		"/home/tomek/DDocs/Coursera/RoR/1_3/fullstack-course1-module3-master/app/controllers/courses_controller.rb",
@@ -336,11 +452,9 @@
 		"/media/DDocs/Coursera/RoR/1_2/Assignment/dog.rb",
 		"/home/tomek/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
 		"/home/tomek/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
-		"/home/tomek/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/tomek/.config/sublime-text-3/Packages/User/ExtendedSwitcher.sublime-settings",
 		"/home/tomek/.config/sublime-text-3/Packages/ExtendedSwitcher/ExtendedSwitcher.sublime-settings",
 		"/home/tomek/.config/sublime-text-3/Packages/ExtendedSwitcher/Default (Linux).sublime-keymap",
-		"/home/tomek/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/media/DDocs/Coursera/RoR/1_2/_fullstack-course1-module2/Assignments/Lesson03-Assignment01-Classes/student-start/module2_lesson3_formative_org.rb",
 		"/home/tomek/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/tomek/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
@@ -368,9 +482,29 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"redirect_to",
+			"ToDo",
+			"maxYear",
+			"minYear",
+			"null",
+			"due_date",
+			"list_due_date",
+			"list_name",
+			"Fiorina",
+			"Carly",
+			"Fiorina",
+			"password_digest",
+			"},\n",
+			"auto_complete",
+			"ctrl+space",
+			"auto_comple",
+			"ctrl+spa",
+			"auto",
+			"reflect_on_association",
+			"destroy",
 			"password_digest",
 			"list_name",
 			"max",
@@ -404,6 +538,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Todo",
 			"\"",
 			"# ",
 			"'"
@@ -417,24 +552,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "2_1/todolists/assignment/assignment.rb",
+					"file": "2_3/todolists/db/migrate/20160329213350_change_description_to_text.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4194,
+						"buffer_size": 130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4194,
-								4194
+								119,
+								119
 							]
 						],
 						"settings":
@@ -443,60 +578,148 @@
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1122.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2_3/todolists/db/schema.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								926,
+								926
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "2_3/todolists/app/controllers/todo_items_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "2_1/todolists/spec/assignment_spec.rb",
+					"buffer": 3,
+					"file": "2_3/todolists/app/views/todo_items/show.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15091,
+						"buffer_size": 404,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7447,
-								7447
+								238,
+								238
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"auto_complete": false,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
 						},
-						"translation.x": -0.0,
-						"translation.y": 4692.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "2_1/todolists/db/schema.rb",
-					"semi_transient": true,
+					"buffer": 4,
+					"file": "2_3/todolists/app/views/todo_items/index.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1706,
+						"buffer_size": 813,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1360,
-								1360
+								442,
+								442
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "2_3/todolists/app/views/todo_items/_form.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								670
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -506,25 +729,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "2_1/todolists/db/migrate/20160315194850_create_users.rb",
-					"semi_transient": false,
+					"buffer": 6,
+					"file": "2_3/todolists/app/views/todo_items/new.html.erb",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 195,
+						"buffer_size": 85,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -592,6 +815,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"routes",
+				"2_3/todolists/config/routes.rb"
+			],
+			[
+				"to_do",
+				"2_3/todolists/test/fixtures/to_do_items.yml"
+			],
+			[
+				"schema",
+				"2_2/todolists/db/schema.rb"
+			],
 			[
 				"users",
 				"2_1/todolists/db/migrate/20160315194850_create_users.rb"
@@ -661,7 +896,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 333.0,
+	"side_bar_width": 499.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
